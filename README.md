@@ -1,41 +1,35 @@
-React + Vite Minimal Template
+# ⚡ React + Vite Minimal Template
 
-A minimal and modern setup for building React applications with Vite, featuring fast development and basic ESLint rules. Ideal for learning, personal projects, and placement-ready portfolios.
+A modern and minimal setup for building **React applications with Vite**, optimized for fast development, clean structure, and basic code quality checks using ESLint.  
+Ideal for learning, personal projects, and placement-ready frontend practice.
 
-⚡ Features
+---
 
-React + Vite: Lightning-fast development with Hot Module Replacement (HMR)
+## 🚀 Features
 
-ESLint Integration: Basic linting rules to maintain code quality
+| Feature | Description |
+|--------|-------------|
+| React + Vite | Lightning-fast development with Hot Module Replacement (HMR) |
+| ESLint | Basic linting rules for cleaner and consistent code |
+| Fast Refresh | Instant UI updates without page reload |
+| Official Plugins | Babel / SWC powered React refresh |
 
-Official Plugins:
+---
 
-@vitejs/plugin-react – Babel (or oxc for rolldown-vite) Fast Refresh
+## 🔌 Official Plugins
 
-@vitejs/plugin-react-swc – SWC Fast Refresh
+| Plugin | Purpose |
+|--------|---------|
+| `@vitejs/plugin-react` | React Fast Refresh using Babel (or OXC) |
+| `@vitejs/plugin-react-swc` | React Fast Refresh using SWC (faster builds) |
 
-⚠️ React Compiler is not enabled by default due to dev & build performance impact. Refer to React Compiler Documentation
- to enable.
+> ⚠️ React Compiler is disabled by default due to dev and build performance impact.  
+> Refer to the official React Compiler documentation if you want to enable it.
 
-Install dependencies:
+---
 
+## ⚙️ Getting Started
+
+### Install Dependencies
+```bash
 npm install
-
-Start the development server:
-
-npm run dev
-
-📂 Project Structure
-
-├─ public/          # Static assets
-├─ src/
-│  ├─ App.jsx       # Main App component
-│  ├─ main.jsx      # Entry point
-│  └─ assets/       # Images, CSS, etc.
-├─ package.json
-├─ vite.config.js
-└─ README.md
-
-Open your browser at:
-
-http://localhost:5173
